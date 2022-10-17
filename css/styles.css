@@ -22,6 +22,26 @@
     background-color: red;
   }
 
+  .column2 {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  .row2 {margin: 0 -5px;}
+  
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .card2 {
+    padding: 16px;
+    text-align: center;
+    background-color: red;
+  }
+
 h1 {
     font-size: 40px;
 }
